@@ -1,0 +1,32 @@
+<h1>Flop voter</h1>
+
+<div style="display: flex; flex-wrap: wrap;">
+  <div style="margin: 25px; ">
+    <h3 [hidden]="hideText(0)">Chosen</h3>
+  <img src="https://i.pinimg.com/736x/7c/3d/1f/7c3d1f7dcf38f3cf1da4c9f0f9db2295.jpg">
+  <br>
+  <button id="dugme" [disabled]="disabledClick(0)" (click)="voteClick(0)">Vote</button>
+  </div>
+
+  <div style="margin: 25px;">
+    <h3 [hidden]="hideText(1)">Chosen</h3>
+    <img src="https://i.pinimg.com/736x/7c/3d/1f/7c3d1f7dcf38f3cf1da4c9f0f9db2295.jpg">
+    <br>
+    <button [disabled]="disabledClick(1)" (click)="voteClick(1)">Vote</button>
+    </div>
+
+ <div style="margin: 25px;">
+  <h3 [hidden]="hideText(2)">Chosen</h3>
+      <img src="https://i.pinimg.com/736x/7c/3d/1f/7c3d1f7dcf38f3cf1da4c9f0f9db2295.jpg">
+      <br>
+      <button [disabled]="disabledClick(2)" (click)="voteClick(2)">Vote</button>
+  </div>
+
+  <div style="margin: 25px;">
+    <h3 [hidden]="hideText(3)">Chosen</h3>
+    <img src="https://i.pinimg.com/736x/7c/3d/1f/7c3d1f7dcf38f3cf1da4c9f0f9db2295.jpg">
+    <br>
+    <button [disabled]="disabledClick(3)" (click)="voteClick(3)">Vote</button>
+ </div>
+
+</div>
